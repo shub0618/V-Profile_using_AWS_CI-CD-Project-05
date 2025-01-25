@@ -27,18 +27,29 @@ The repository is organized as follows:
 ├── src/
 ├── About_the_Project.md/
 ├── GitMigration.txt/
+├── buildspec.yml/
 ├── pom.xml/
+├── settings.xml/
 ├── .gitignore/
 ├── LICENSE/
 └── README.md
 ```
 
-## (Containerization of V-Profile Project)
-In this Project, we will see how to run our Vprofile application on containers. Now this project is more of a trailer of what is coming next in Docker.
-Everything is ready made over here. We just need to bring up the VM and run our Vprofile containers on it.
-In this project, we will see how these things will run on the container together. We are going to run this entire setup on a virtual machine.
-So in the virtual machine, you will have all these containers running and we will access it. And we bring up the containers using the docker compose file.
+## (AWS CI/CD Project)
+In this project, we are going to use AWS services to fetch our code, build it and deploy it on AWS Elastic Beanstalk.
+As you may have seen Jenkins CI CD pipeline, Same way we are going to create a code pipeline, but we are going to use AWS services for that.
+We are going to migrate it from GitHub to Bitbucket.Then we are going to use AWS Code Build service, which is going to fetch the source code from Bitbucket
+and deploy it on Beanstalk.
 
+For the code Repository we are using 
+- Bitbucket
+  
+We're using AWS cloud computing and the services that we are going to use In this project are: 
+- Elastic Beanstalk
+- RDS
+- CodePipeline
+- CodeBuild
+- Cloud watch
  
 ## License
 
